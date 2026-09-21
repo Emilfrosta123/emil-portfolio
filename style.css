@@ -110,6 +110,41 @@ section {
     margin-top: 1.5rem;
 }
 
+/* Logo og billeder fra mit spil */
+.firma-logo {
+    display: block;
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.spil-billeder {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.spil-billeder figure {
+    flex: 1;
+    min-width: 0;
+    max-width: 320px;
+    margin: 0;
+}
+
+.spil-billeder img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.spil-billeder figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
 footer {
     background-color: #243b5a;
     color: white;
@@ -138,6 +173,10 @@ footer a {
     .baggrund section {
         flex: 1;
         min-width: 0;
+    }
+
+    .spil-billeder {
+        flex-direction: row;
     }
 
     h1 {
